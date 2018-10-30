@@ -1,24 +1,6 @@
-# README
+# Mon_Petit_Potin #
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+** Ce projet à été fait en peer-programming Avec <a href="">Léa Lp</a> et <a href="">Lisa Lou AEH</a>
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Pour visiter le site de l'application :
+<a href="https://mon-petit-potin.herokuapp.com/">C'est par ici</a>
