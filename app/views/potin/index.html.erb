@@ -1,0 +1,17 @@
+
+<h1>Bienvenu sur <strong>Mon petit potin</strong> !</h1>
+
+    <h3>Voici la liste des potins :</h3>
+    <div class="row">
+    <% Potin.all.each do |potin| %>
+        <div class="card col-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title"><%= link_to "Potin n° #{potin.id}", "show/#{potin.id}"%></h5>
+                <p class="card-text"> << <%= potin.content %> ... >> </p>
+                <p><%= "#{potin.author.first_name} #{potin.author.last_name}"%></p>
+            </div>
+        </div>
+        <% end %>
+        </div>
+
+
